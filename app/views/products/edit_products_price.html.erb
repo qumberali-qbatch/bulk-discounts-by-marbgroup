@@ -1,0 +1,8 @@
+<%= form_for :collection_products, url: :edit_products_price do |f| %>
+	<% @products.each do |product| %>
+  	<%= f.hidden_field :ids , multiple: true, value: product.id %>
+  <% end %>	
+	<b><%= f.label :new_price_for_selected_products %></b><br>
+	<%= f.number_field :new_price, class: :text_field, step: :any %><br><br>
+  <%= f.submit %>
+<% end %>

@@ -1,0 +1,4 @@
+APPLICATION_NAME: "Bulk Discount By MarbGroup"
+API_KEY: "0725e5fa38b0a3ba3424806628c6d5bc"
+Secret: "76b2dbeeb9c874711b0e1efee256fc0a"
+Scope: "read_products, write_orders, write_products"
